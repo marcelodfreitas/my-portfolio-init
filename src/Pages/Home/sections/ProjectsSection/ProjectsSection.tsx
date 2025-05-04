@@ -13,7 +13,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Tindra",
             subtitle: "Fev 2025 - Mai 2025",
-            srcImg: "/src/assets/images/tindra.png",
+            srcImg: "/src/assets/images/avatar.jpg",
             description: "O TINDRA é uma plataforma inovadora que simplifica a compra, venda e troca de veículos no Brasil. Utilizando IA, o sistema gera descrições automáticas dos carros a partir de fotos e informações fornecidas pelos usuários. As negociações são realizadas diretamente pelo WhatsApp, eliminando a necessidade de cadastros extensos ou formulários complexos. O aplicativo ainda está em desenvolvimento!",
             technologies: "",
             websiteURL: "https://tindra-tan.vercel.app/",
