@@ -4,7 +4,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 
 const AboutSection: React.FC = () => {
-  const StyledCard = styled(Card)(({ theme }) => ({
+  const StyledCard = styled(Card)(({}) => ({
     padding: "10px 10px",
     textAlign: "center",
     marginBottom: "10px",
@@ -75,8 +75,8 @@ const AboutSection: React.FC = () => {
         </Grid>
         <Box pb={1}>
           <Typography>
-            Sou natural de Porto Alegre - RS, apaixonado por tecnologia, música e
-            inovação. Tenho perfil proativo, comunicativo e estou sempre em
+            Sou natural de Porto Alegre - RS, apaixonado por tecnologia, música
+            e inovação. Tenho perfil proativo, comunicativo e estou sempre em
             busca de novas ideias e soluções criativas. Valorizo a simplicidade,
             o trabalho em equipe e acredito que bons resultados vêm da
             combinação entre dedicação, aprendizado contínuo e colaboração. Além
