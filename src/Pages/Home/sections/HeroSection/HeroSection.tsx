@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
 
     const StyledImg = styled("img")(({ theme }) => ({
         width: "80%",
-        border: `1px solid ${theme.palette.primary.contrastText}`,
+        border: '3px solid #4f8e3e',
         borderRadius: "50%",
         position: "relative"
     }));
@@ -19,6 +19,7 @@ const HeroSection: React.FC = () => {
     const StyledHero = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.main,
         width: "100%",
+        
         [theme.breakpoints.up('xs')]: {
             display: "block",
             padding: "20px",
@@ -28,6 +29,7 @@ const HeroSection: React.FC = () => {
         [theme.breakpoints.up('md')]: {
             display: "flex",
             alignItems: "center",
+            justifyContent: "center",
             paddingTop: "100px",
             height: "100vh"
         },
@@ -38,7 +40,7 @@ const HeroSection: React.FC = () => {
         // Create a link element
         const link = document.createElement('a');
         link.href = CV
-        link.download = 'example.pdf'; // Set the download attribute to specify the file name
+        link.download = 'MarceloLFreitas.pdf'; // Set the download attribute to specify the file name
         // Append the link to the body
         document.body.appendChild(link);
         // Trigger the click event
@@ -48,7 +50,7 @@ const HeroSection: React.FC = () => {
     };
 
     const handleEmail = () => {
-        const emailAddress = 'example@example.com';
+        const emailAddress = 'marcelo.lempek@gmail.com';
         const subject = 'Subject';
         const body = 'Hello! I saw your portfolio...';
 
@@ -72,10 +74,10 @@ const HeroSection: React.FC = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={7}>
-                            <Typography color="primary.contrastText" variant="h1" pb={2} textAlign="center">
-                                Adriana Saty
+                            <Typography color="#4f8e3e" variant="h2" mt={8} pb={2} textAlign="center">
+                                Marcelo L Freitas
                             </Typography>
-                            <Typewriter text="I'm a Software Engineer" delay={120} variant="h2" color="primary.contrastText" />
+                            <Typewriter text="I'm a Front End Dev" delay={120} variant="h3" color="primary.contrastText" />
                             <Box mt={3}>
                                 <Grid container spacing={3} display="flex" justifyContent="center">
                                     <Grid item xs={10} md={4}>

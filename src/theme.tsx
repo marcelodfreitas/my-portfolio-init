@@ -4,7 +4,7 @@ import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 let theme = createTheme({
     typography: {
         fontFamily: [
-            '"Helvetica Neue"',
+            "Ubuntu",
         ].join(','),
     },
     palette: {
